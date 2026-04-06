@@ -7,22 +7,22 @@
 }
 
 :root {
-    /* Paleta Soft Dark - Mais Clara e Confortável */
-    --bg-body: #1e293b;       /* Fundo bem mais claro - azul acinzentado */
-    --bg-card: #334155;       /* Cards com bom contraste */
-    --bg-header: #334155;     /* Header integrado */
-    --bg-input: #475569;      /* Inputs claros para fácil leitura */
-    --bg-modal: #334155;
+    /* Paleta Base Escura Mais Clara (Dark Gray/Blue) */
+    --bg-body: #131b2e;       /* Fundo geral mais claro e suave */
+    --bg-card: #1a2538;       /* Cards um pouco mais visíveis */
+    --bg-header: #1c2a42;     /* Header com leve destaque */
+    --bg-input: #24334a;      /* Inputs mais claros para digitar melhor */
+    --bg-modal: #1e293b;
     
-    /* Textos */
-    --text-main: #f1f5f9;     /* Texto quase branco */
-    --text-muted: #cbd5e1;    /* Texto secundário mais visível */
+    /* Textos (Ajustados para contraste no fundo mais claro) */
+    --text-main: #e2e8f0;     /* Mantido (claro o suficiente) */
+    --text-muted: #94a3b8;
     --text-white: #ffffff;
     
     /* Cores Principais */
     --primary: #3b82f6;
     --primary-hover: #2563eb;
-    --primary-glow: rgba(59, 130, 246, 0.3);
+    --primary-glow: rgba(59, 130, 246, 0.25);
     
     --success: #10b981;
     --warning: #f59e0b;
@@ -35,13 +35,13 @@
     --accent-yellow: #fbbf24;
     --accent-red: #f87171;
     
-    /* Bordas (Mais visíveis) */
-    --border: #475569;        /* Borda clara para boa separação */
-    --border-light: #64748b;
-    --border-focus: #94a3b8;
+    /* Bordas (Mais visíveis no fundo claro) */
+    --border: #2d3b52;        /* Borda mais clara para separar elementos */
+    --border-light: #374151;
+    --border-focus: #475569;
     
     /* Status */
-    --status-na-fila: #94a3b8;
+    --status-na-fila: #64748b;
     --status-processando: #f59e0b;
     --status-ajustes: #3b82f6;
     --status-finalizado: #10b981;
